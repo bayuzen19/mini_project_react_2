@@ -1,0 +1,66 @@
+/* App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #808080;
+}
+
+.header {
+  color: #000;
+  padding: 20px;
+  color: #fff;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.tab-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab.active {
+  background-color: #fff;
+  color: #000;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.film-list,
+.character-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.film-card,
+.character-card {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #fff;
+}
